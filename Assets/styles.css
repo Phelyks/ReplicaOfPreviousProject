@@ -18,10 +18,10 @@
 }
 
 .topbar {
-    background: rgba(255,255,255,0.5);
+    background: rgba(3, 0, 0, 0.308);
     backdrop-filter: blur(2.5px);
     -webkit-backdrop-filter: blur(2.5px);
-    padding: 0px 0px 0px 15px;
+    padding: 0px 0px 0px 10px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius:20px;
     border-top-left-radius: 4px;
@@ -30,8 +30,8 @@
 }
 
 .topbar h1 {
-    color: rgb(77, 5, 5);
-    padding: 5px 0px 0px 30px;
+    color: rgb(228, 205, 205);
+    padding: 5px 0px 0px 0px;
     float: left;
     font-size: 35px;
 }
@@ -44,7 +44,7 @@
 .menu {
     color: black;
     float: left;
-    margin: 10px 0px 0px 80px;
+    margin: 10px 0px 0px 40px;
     font-size: 20px;
 }
 
@@ -63,7 +63,7 @@
 
 .topbar ul li a {
     text-decoration: none;
-    color: black;
+    color: rgb(228, 205, 205);
     font-weight: bold;
     transition: 0.4s ease-in-out;
 }
@@ -71,4 +71,45 @@
 .topbar ul li a:hover {
     color: orangered;
     
+}
+
+.search{
+    float: right;
+    margin: 0px 0px 0px 900px;
+    width: 180px;
+    padding: 0px 0px 0px 0px;
+    color: white;
+}
+
+.srch{
+    float: left;
+    width: 120px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid white;
+    border-right: none;
+    border-radius: 10px 0px 0px 10px;
+    margin: 5px 0px 0px 57px;
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+}
+
+.srch:focus {
+    outline: none;
+}
+
+.btn{
+    width: 60px;
+    height: 40px;
+    /* padding: 8px; */
+    color: black;
+    border: 2px solid white;
+    border-radius: 0px 0px 10px 0px;
+    margin: 5px 10px 0px 0px;
+    float: right;
+}
+
+.btn:focus {
+    outline: none;
 }
