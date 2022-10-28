@@ -10,3 +10,27 @@
     background-position: center;
     background-size: cover;
 }
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.topbar {
+    background: rgba(255,255,255,0.5);
+    color: greenyellow;
+    backdrop-filter: blur(4.3px);
+    -webkit-backdrop-filter: blur(4.3px);
+    padding: 0px 0px 0px 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius:15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    height: 70px;
+}
+
+.topbar h1 {
+    color: black;
+    padding: 5px 0px 0px 30px;
+}
