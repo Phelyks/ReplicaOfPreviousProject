@@ -27,10 +27,47 @@
     border-bottom-right-radius:15px;
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
-    height: 70px;
+    height: 50px;
 }
 
 .topbar h1 {
     color: black;
     padding: 5px 0px 0px 30px;
+    float: left;
+    font-size: 35px;
+}
+
+.topbar h1:hover {
+    color: green;
+}
+
+
+.menu {
+    color: black;
+    float: left;
+    margin: 10px 0px 0px 100px;
+}
+
+.topbar ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.topbar ul li {
+    list-style: none;
+    margin: 5px 60px 0px 0px;
+}
+
+.topbar ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+.topbar ul li a:hover {
+    color: yellowgreen;
+    background: rgba(255, 255, 255, 0.877);
 }
