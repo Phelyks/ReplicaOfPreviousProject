@@ -21,7 +21,7 @@
     background: rgba(3, 0, 0, 0.308);
     backdrop-filter: blur(2.5px);
     -webkit-backdrop-filter: blur(2.5px);
-    padding: 0px 0px 0px 10px;
+    padding: 0px 0px 0px 15px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius:20px;
     border-top-left-radius: 4px;
@@ -118,12 +118,11 @@
     background: rgba(245, 245, 245, 0.438);
     backdrop-filter: blur(2.5px);
     -webkit-backdrop-filter: blur(2.5px);
-    /* backdrop-filter: blur(2.5px);
-    -webkit-backdrop-filter: blur(2.5px); */
     width: 530px;
     height: 320px;
     border-radius: 10px 10px 10px 10px;
-    margin: 160px 0px 0px 410px;
+    margin: 15.8% 0% 0% 31%;
+    /* margin: 160px 0px 0px 410px; */
     padding: 10px 5px 0px 5px;
 }
 
