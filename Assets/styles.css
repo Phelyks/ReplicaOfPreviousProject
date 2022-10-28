@@ -19,9 +19,8 @@
 
 .topbar {
     background: rgba(255,255,255,0.5);
-    color: greenyellow;
-    backdrop-filter: blur(4.5px);
-    -webkit-backdrop-filter: blur(4.5px);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
     padding: 0px 0px 0px 15px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius:20px;
@@ -31,7 +30,7 @@
 }
 
 .topbar h1 {
-    color: black;
+    color: rgb(77, 5, 5);
     padding: 5px 0px 0px 30px;
     float: left;
     font-size: 35px;
