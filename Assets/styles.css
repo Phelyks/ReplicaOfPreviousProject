@@ -20,13 +20,13 @@
 .topbar {
     background: rgba(255,255,255,0.5);
     color: greenyellow;
-    backdrop-filter: blur(4.3px);
-    -webkit-backdrop-filter: blur(4.3px);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
     padding: 0px 0px 0px 15px;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius:15px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
     height: 50px;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .topbar h1:hover {
-    color: green;
+    color: orangered;
 }
 
 
@@ -51,14 +51,15 @@
 .topbar ul{
     float: left;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: left;
+    align-items: left;
 }
 
 .topbar ul li {
     list-style: none;
     margin: 5px 60px 0px 0px;
 }
+
 
 .topbar ul li a {
     text-decoration: none;
@@ -68,6 +69,6 @@
 }
 
 .topbar ul li a:hover {
-    color: yellowgreen;
-    background: rgba(255, 255, 255, 0.877);
+    color: orangered;
+    
 }
