@@ -132,10 +132,10 @@
     font-family: 'Times New Roman';
     font-size: 50px;
 }
-
+/* 
 .content h1 span {
     color: rgb(19, 206, 19);
-}
+} */
 
 .content table {
     width: 100%;
@@ -155,4 +155,18 @@
     width: auto;
     font-size: 20px;
     font-weight: bolder;
+    color: whitesmoke;
+}
+
+footer{
+    width: 500px;
+    height: 75px;
+    margin: 10px 0px 0px 420px;
+    background: rgba(3,0,0,0.308);
+    backdrop-filter: blur(2.5px);
+    -webkit-backdrop-filter: blur(2.5px);
+    border-radius: 40px 40px 0px 0px;
+    padding: 20px 0px 0px 0px;
+    text-align: center;
+    color: white;
 }
