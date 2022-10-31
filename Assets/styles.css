@@ -5,7 +5,7 @@
 
 .main {
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%), url('./Images/phelyksInc.jpeg');
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.2)50%, rgba(0,0,0,0.2)50%), url('./Images/phelyksInc.jpeg');
     height: 100vh;
     background-position: center;
     background-size: cover;
@@ -18,7 +18,7 @@
 }
 
 .topbar {
-    background: rgba(3, 0, 0, 0.308);
+    background: rgba(3, 0, 0, 0.527);
     backdrop-filter: blur(2.5px);
     box-shadow: -6px 0px 400px 200px rgba(0,0,0,0.2);
     -webkit-backdrop-filter: blur(2.5px);
@@ -152,7 +152,7 @@
 
 .content table td {
     margin: 10px 10px 10px 110px;
-    border: 2px solid rgba(205, 235, 144, 0.507);
+    border: 2px solid rgb(177, 107, 107);
     border-radius: 10px 0px 10px 0px;
     height: 80px;
     width: auto;
@@ -167,7 +167,7 @@
     background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%);
     position: absolute;
     top: 160px;
-    left: 1010px;
+    left: 1030px;
     border-radius: 30px;
     padding: 25px;
 }
@@ -176,7 +176,7 @@
     width: 220px;
     text-align: center;
     color: white;
-    font-size: 22px;
+    font-size: 24px;
     background-color: rgba(230, 105, 105, 0.733);
     border-radius: 20px;
     margin: 0px 0px 25px 0px;
@@ -187,7 +187,7 @@
     width: 240px;
     height: 35px;
     background: rgba(245,245,245,0.2);
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(228, 85, 85);
     border-top: none;
     border-left: none;
     border-right: none;
@@ -197,6 +197,78 @@
     color: white;
     font-size: 15px;
     letter-spacing: 1px;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: white;
+}
+
+.btnn {
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: rgba(230, 105, 105, 0.733);
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+    margin: 5px 0px 25px 3px;
+    padding: 0px 0px 5px 0px;
+    cursor: pointer;
+    transition: 0.4s ease;
+    font-family: 'Times New Roman';
+    font-weight: bold;
+}
+
+.btnn:hover {
+    background-color: rgb(238, 30, 30);
+    color: black;
+}
+
+.btnn a {
+    text-decoration: none;
+    color: white;
+}
+
+.form .link {
+    font-family: 'Times New Roman';
+    font-size: 20px;
+    text-align: center;
+    padding: 0px 0px 8px 0px;
+    color: white;
+    font-weight: bold;
+}
+
+.form .link a {
+    text-decoration: none;
+    color: red;
+}
+
+.form .liw {
+    color: white;
+    font-family: 'Times New Roman';
+    font-size: 18px;
+    padding: 20px 0px 0px 0px;
+    font-weight: bold;
+    
+}
+
+.icons {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.icons ion-icon {
+    color: white;
+    padding: 15px 15px 0px 10px;
+}
+
+.icons ion-icon:hover {
+    color: rgba(233, 2, 2, 0.733);
 }
 
 /* footer{
