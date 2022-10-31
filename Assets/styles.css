@@ -122,7 +122,7 @@
     width: 530px;
     height: 320px;
     border-radius: 10px 10px 10px 10px;
-    margin: 2.8% 0% 0% 30%;
+    margin: 155px 0px 0px 410px;;
     /* margin: 160px 0px 0px 410px; */
     padding: 10px 5px 0px 5px;
     box-shadow: -6px 20px 10px 8px rgba(12, 4, 4, 0.678);
@@ -161,7 +161,29 @@
     color: whitesmoke;
 }
 
-footer{
+.form {
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.616)50%,rgba(0, 0, 0, 0.616)50%);
+    position: absolute;
+    top: 160px;
+    left: 1010px;
+    border-radius: 30px;
+    padding: 25px;
+}
+
+.form h2 {
+    width: 220px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    background-color: rgba(245, 245, 245, 0.438);
+    border-radius: 20px;
+    margin: 0px 0px 15px 0px;
+    padding: 5px 0px 5px 0px;
+}
+
+/* footer{
     width: 500px;
     height: 75px;
     margin: 10px 0px 0px 400px;
@@ -172,4 +194,4 @@ footer{
     padding: 20px 0px 0px 0px;
     text-align: center;
     color: white;
-}
+} */
