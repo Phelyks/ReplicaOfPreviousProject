@@ -20,6 +20,7 @@
 .topbar {
     background: rgba(3, 0, 0, 0.308);
     backdrop-filter: blur(2.5px);
+    box-shadow: -6px 0px 400px 200px rgba(0,0,0,0.2);
     -webkit-backdrop-filter: blur(2.5px);
     padding: 0px 0px 0px 15px;
     border-bottom-left-radius: 20px;
@@ -124,6 +125,8 @@
     margin: 11.8% 0% 0% 30%;
     /* margin: 160px 0px 0px 410px; */
     padding: 10px 5px 0px 5px;
+    box-shadow: -6px 20px 10px 8px rgba(12, 4, 4, 0.678);
+    position: absolute;
 }
 
 .content h1 {
@@ -161,7 +164,7 @@
 footer{
     width: 500px;
     height: 75px;
-    margin: 10px 0px 0px 420px;
+    margin: 10px 0px 0px 400px;
     background: rgba(3,0,0,0.308);
     backdrop-filter: blur(2.5px);
     -webkit-backdrop-filter: blur(2.5px);
