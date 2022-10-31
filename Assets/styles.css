@@ -164,7 +164,7 @@
 .form {
     width: 250px;
     height: 380px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.616)50%,rgba(0, 0, 0, 0.616)50%);
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%,rgba(0, 0, 0, 0.5)50%);
     position: absolute;
     top: 160px;
     left: 1010px;
@@ -177,10 +177,26 @@
     text-align: center;
     color: white;
     font-size: 22px;
-    background-color: rgba(245, 245, 245, 0.438);
+    background-color: rgba(230, 105, 105, 0.733);
     border-radius: 20px;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 25px 0px;
     padding: 5px 0px 5px 0px;
+}
+
+.form input {
+    width: 240px;
+    height: 35px;
+    background: rgba(245,245,245,0.2);
+    border-bottom: 2px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 9px;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 0px 0px 20px;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
 }
 
 /* footer{
