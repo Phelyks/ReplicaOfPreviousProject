@@ -122,11 +122,11 @@
     width: 530px;
     height: 320px;
     border-radius: 10px 10px 10px 10px;
-    margin: 11.8% 0% 0% 30%;
+    margin: 2.8% 0% 0% 30%;
     /* margin: 160px 0px 0px 410px; */
     padding: 10px 5px 0px 5px;
     box-shadow: -6px 20px 10px 8px rgba(12, 4, 4, 0.678);
-    position: absolute;
+    /* position: absolute; */
 }
 
 .content h1 {
